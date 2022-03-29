@@ -4,7 +4,9 @@ const app = Vue.createApp({
       product: 'Socks',
       description: 'Nice solid winter socks',
       image: './assets/images/socks_green.jpg',
-      url: 'https://github.com/shanukova'
+      url: 'https://github.com/shanukova',
+      inventory: 0,
+      onSale: false
     }
   }
 })
